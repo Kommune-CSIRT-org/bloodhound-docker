@@ -4,9 +4,9 @@
 Pre-requisites
 ---
 1. Latest docker installed, this guide utilises Rocky Linux as OS with docker-ce  
-  Install procedure for docker-ce on Rocky Linux 9 is available from (DigitalOceans)[https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-rocky-linux-9#step-2-executing-docker-command-without-sudo-optional]
+  Install procedure for docker-ce on Rocky Linux 9, with detailed informartion, is available on [DigitalOcean](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-rocky-linux-9#step-2-executing-docker-command-without-sudo-optional)
 
-Docker-install
+Docker-install (summarised)
 ---
 The following is a set of commands to update the repo list, add the repo for docker-ce, installing docker-ce, starting the service and enabling it as a permanent service.
 Then finally it adds the current user to the docker group, so it doesn't require sudo privileges to run containers.
